@@ -9,7 +9,7 @@
 This repository implements an instance-segmentation pipeline for the
 NYCU-VRDL-HW3 four-class cell-segmentation benchmark (209 train / 101
 test images, .tif format, hidden-test metric AP50). The base detector is
-Mask R-CNN with a ResNeXt-101-32x8d FPN backbone (Detectron2 model zoo).
+Mask R-CNN with a ResNeXt-101-32x8d FPN backbone.
 On top of the baseline we add three task-specific modifications:
 
 1. **DCNv2** (modulated deformable convs) on res3--res5 -- adapts the
