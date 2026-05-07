@@ -91,8 +91,6 @@ VRDL_HW3/
 |  |  +- <name>.tif
 |  +- test_image_name_to_ids.json
 +- best/
-+- code_v1/
-+- code_v2/
 +- ...
 ```
 
@@ -162,8 +160,6 @@ This regenerates all 11 figures (`figures/01_pr_curve.png`,
 
 ```
 VRDL_HW3/
-+- 314551001_HW3.pdf       # Final report
-+- 314551001_HW3.tex       # Report source (ECCV 2026 / LLNCS template)
 +- README.md               # This file
 +- requirements.txt        # Python dependencies
 +- LeaderBoard.png         # Codabench public-leaderboard snapshot
@@ -174,8 +170,6 @@ VRDL_HW3/
 |  +- plots.py             # Generates the report figures
 |  +- visualize.py
 |  +- run_all.sh
-+- code_v1/                # Ablation v1 (plain Mask R-CNN X-101)
-+- code_v2/                # Ablation v2 (v1 + DCNv2 + BCE+Dice)
 ```
 
 ## References
